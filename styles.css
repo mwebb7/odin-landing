@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: roboto, sans-serif;
+  background-color: #1f2937;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 200px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
